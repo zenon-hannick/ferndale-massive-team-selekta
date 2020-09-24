@@ -1,0 +1,15 @@
+Classes Required
+
+- Player
+	- Tier
+	- Is playing?
+
+- Team
+	- No of players
+	- Players []
+	- Team Score
+
+- Tier
+	- Tier Score
+	- Players []
+	- Tier No

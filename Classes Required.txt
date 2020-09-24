@@ -1,18 +1,20 @@
 Classes Required
 
 - Player
-	- Tier
-	- Is playing?
+	- name - string
+	- isPlaying?() - Boolean
 
 - Team
-	- No of players
-	- Players []
-	- Team Score
+	- NoOfPlayers - int
+	+ TeamValue() - int
 
 - Tier
-	- Tier Score
-	- Players []
-	- Tier No
+	- TierValue - Int
+	- TierName - String
 
-edit
+- Active Players
 
+
+
+	
+	

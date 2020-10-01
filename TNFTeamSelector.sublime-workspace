@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sc",
+				"scoreList"
+			],
+			[
 				"p",
 				"phoneNumber"
 			],
@@ -52,10 +56,13 @@
 			}
 		},
 		{
+			"contents": "from team import Team \nfrom player import Player\nfrom tier import Tier\nfrom playerPool import PlayerPool\n\n# Manual process currently used:\n# - Add active players to the spreadsheet\nTeam1 = Team(1)\nTeam2 = Team(2)\n\nTier1 = Tier(1, 6)\nTier2 = Tier(2, 5)\nTier3 = Tier(3, 4)\nTier4 = Tier(4, 3)\nTier5 = Tier(5, 2)\nTier6 = Tier(6, 1)\n\n# Import players using csv file. Use csv dictionaries to create Player objects.\n# Could do the same for Tier as it would allow me to change them in bulk easier. \n\nfor n in Player \n# - blackout all players who arent playing\n\n# - create number of teams required\n\n# - add players in to each side to create equal valued teams\n\n# - ensure equal spread of different style players\n\n\n\n\n\n\n\n\n\n",
 			"file": "TNF Team Picker.py",
+			"file_size": 665,
+			"file_write_time": 132460433834718492,
 			"settings":
 			{
-				"buffer_size": 385,
+				"buffer_size": 712,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "TNF Team Picker"
@@ -65,7 +72,7 @@
 			"file": "tier.py",
 			"settings":
 			{
-				"buffer_size": 437,
+				"buffer_size": 442,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -74,7 +81,7 @@
 			"file": "player.py",
 			"settings":
 			{
-				"buffer_size": 480,
+				"buffer_size": 503,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -83,7 +90,7 @@
 			"file": "team.py",
 			"settings":
 			{
-				"buffer_size": 166,
+				"buffer_size": 446,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -92,7 +99,7 @@
 			"file": "playerPool.py",
 			"settings":
 			{
-				"buffer_size": 596,
+				"buffer_size": 597,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "playerPool.py"
@@ -204,7 +211,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -220,8 +227,8 @@
 						"selection":
 						[
 							[
-								523,
-								266
+								326,
+								326
 							]
 						],
 						"settings":
@@ -234,7 +241,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -264,7 +271,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -273,15 +280,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 385,
+						"buffer_size": 712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								331,
+								331
 							]
 						],
 						"settings":
@@ -294,7 +301,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -303,15 +310,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 437,
+						"buffer_size": 442,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								434,
-								434
+								225,
+								225
 							]
 						],
 						"settings":
@@ -323,7 +330,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -332,44 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 480,
+						"buffer_size": 503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "team.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
+								499,
+								499
 							]
 						],
 						"settings":
@@ -385,20 +363,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "playerPool.py",
+					"buffer": 5,
+					"file": "team.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 596,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								596,
-								596
+								446,
+								445
 							]
 						],
 						"settings":
@@ -410,7 +388,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "playerPool.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

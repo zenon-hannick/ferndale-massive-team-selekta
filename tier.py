@@ -1,9 +1,9 @@
 from player import Player
 
 class Tier:
-	def __init__(self, tier_no, tier_score, player):
-		self.tn = tier_no
-		self.ts = tier_score
+	def __init__(self, tier_no, tier_score):
+		self.tier_no = tier_no
+		self.tier_score = tier_score
 		self.players = []
 
 	def add_player(self, player):

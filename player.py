@@ -1,3 +1,5 @@
+from tier import Tier
+
 class Player:
 	def __init__(self, name, tier):
 		self.name = name

@@ -23,4 +23,5 @@ class PlayerPool:
 			raise Error(f"{self.player} was not in the active player list")
 		else:
 			activePlayers.remove(player)
+
 	

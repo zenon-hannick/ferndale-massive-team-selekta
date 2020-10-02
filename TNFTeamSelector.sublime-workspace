@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"csv",
+				"csv_reader"
+			],
+			[
+				"csv_",
+				"csv_file"
+			],
+			[
 				"sc",
 				"scoreList"
 			],
@@ -56,16 +64,22 @@
 			}
 		},
 		{
-			"contents": "from team import Team \nfrom player import Player\nfrom tier import Tier\nfrom playerPool import PlayerPool\n\n# Manual process currently used:\n# - Add active players to the spreadsheet\nTeam1 = Team(1)\nTeam2 = Team(2)\n\nTier1 = Tier(1, 6)\nTier2 = Tier(2, 5)\nTier3 = Tier(3, 4)\nTier4 = Tier(4, 3)\nTier5 = Tier(5, 2)\nTier6 = Tier(6, 1)\n\n# Import players using csv file. Use csv dictionaries to create Player objects.\n# Could do the same for Tier as it would allow me to change them in bulk easier. \n\nfor n in Player \n# - blackout all players who arent playing\n\n# - create number of teams required\n\n# - add players in to each side to create equal valued teams\n\n# - ensure equal spread of different style players\n\n\n\n\n\n\n\n\n\n",
 			"file": "TNF Team Picker.py",
-			"file_size": 665,
-			"file_write_time": 132460433834718492,
 			"settings":
 			{
-				"buffer_size": 712,
+				"buffer_size": 834,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "TNF Team Picker"
+			}
+		},
+		{
+			"file": "TNFDB.csv",
+			"settings":
+			{
+				"buffer_size": 749,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -173,13 +187,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Joel Percival/Documents/Python Scripts/TeamSelector/TNFDB.csv.csv",
 		"/C/Users/Joel Percival/Documents/Python Scripts/AlishaBirthdayProject/LishaProject.py",
 		"/C/Users/Joel Percival/Documents/Python Scripts/AlishaBirthdayProject/LishaProject",
 		"/C/Users/Joel Percival/Documents/Python Scripts/AlishaBirthdayProject/y"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -211,7 +226,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -241,7 +256,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -271,7 +286,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -280,15 +295,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 712,
+						"buffer_size": 834,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								331,
-								331
+								211,
+								211
 							]
 						],
 						"settings":
@@ -301,11 +316,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "TNFDB.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "tier.py",
 					"semi_transient": false,
 					"settings":
@@ -317,37 +361,8 @@
 						"selection":
 						[
 							[
-								225,
-								225
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "player.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								499,
-								499
+								25,
+								25
 							]
 						],
 						"settings":
@@ -364,6 +379,35 @@
 				},
 				{
 					"buffer": 5,
+					"file": "player.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "team.py",
 					"semi_transient": false,
 					"settings":
@@ -392,7 +436,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "playerPool.py",
 					"semi_transient": false,
 					"settings":
@@ -425,7 +469,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -470,7 +514,7 @@
 	"project": "TNFTeamSelector.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
